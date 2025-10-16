@@ -1,0 +1,39 @@
+# Pliki i foldery developerskie
+/.git
+/.github
+/.gitignore
+/.distignore
+/node_modules
+/npm-debug.log
+/.idea
+/.vscode
+
+# Composer – pliki niepotrzebne w dystrybucji
+/vendor/**/tests
+/vendor/**/test
+/vendor/**/docs
+/vendor/**/doc
+/vendor/**/examples
+/vendor/**/example
+/vendor/**/benchmarks
+/vendor/**/benchmark
+/vendor/**/docker
+/vendor/**/.github
+/vendor/**/.git
+/vendor/**/.gitignore
+
+# Pliki konfiguracyjne i CI
+*.yml
+*.yaml
+*.xml
+*.dist
+*.phpt
+*.neon
+
+# Pliki markdown i inne, które nie są wymagane do działania
+*.md
+*.markdown
+*.rst
+*.txt~
+*.bak
+*.swp
